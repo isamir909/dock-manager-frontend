@@ -2,12 +2,14 @@
 .document-container{
   display: flex;
   gap: 3%;
+  min-height: 100vh;
   font-family: sans-serif;
 	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
   color: white;
 }
 .documents{
   margin-top: 1%;
+  height: auto;
   width: 75%;
   display: grid;
   grid-template-columns: 25% 25% 25%;
